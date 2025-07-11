@@ -1,0 +1,18 @@
+{
+  "name": "advanced-telegram-quiz-bot",
+  "version": "2.0.0",
+  "description": "Advanced Telegram Quiz Bot Management System",
+  "main": "api/quiz-bot.js",
+  "scripts": {
+    "start": "node api/quiz-bot.js",
+    "dev": "node api/quiz-bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "author": "Quiz Bot Admin",
+  "license": "MIT"
+}
